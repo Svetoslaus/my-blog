@@ -1,6 +1,6 @@
 const articles = [
     {
-        name: 'cs50-project',
+        name: 'cs50lastproject',
         title: 'CS50 Last Project',
         content: [
             `Lorem ipsum dolor sit amet, consetetur sadipscing elitr, 
@@ -15,7 +15,7 @@ const articles = [
         ]
     },
     {
-        name: 'cs50-demo',
+        name: 'cs50demodb',
         title: 'CS50 Demo DB',
         content: [
             `Lorem ipsum dolor sit amet, consetetur sadipscing elitr, 

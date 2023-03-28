@@ -6,10 +6,23 @@ import ArticleListPage from './pages/ArticlesListPage';
 import ArticlePage from './pages/ArticlePage';
 import AboutPage from './pages/AboutPage';
 import NotFoundPage from './pages/NotFoundPage';
+import axios from 'axios';
+import { useEffect, useState } from 'react';
 
 
 
 function App() {
+  //const [articleInfo, setArticleInfo] = useState();
+ // useEffect(() => {
+  //  const loadArticleInfo = async () => {
+   // const response = await axios.get('http://localhost:8000/api/articles/cs50lastproject');
+   // const data = response.data;
+   // setArticleInfo(data);
+//}
+//loadArticleInfo();  
+
+//})
+//console.log(articleInfo);
   return (
     <BrowserRouter>
      <div className="App">
@@ -26,6 +39,9 @@ function App() {
     </div>
     </BrowserRouter>
   );
+    
 }
 
 export default App;
+
+
